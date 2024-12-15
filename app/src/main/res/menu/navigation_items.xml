@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/main">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"/>
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_info"
+            android:title="@string/about"/>
+
+        <item
+            android:id="@+id/blog"
+            android:icon="@drawable/ic_blog"
+            android:title="@string/blog"/>
+
+        <item
+            android:id="@+id/school_life"
+            android:icon="@drawable/ic_school"
+            android:title="@string/school_life"/>
+
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/ic_contact"
+            android:title="@string/contact_us"/>
+    </group>
+
+    <group android:id="@+id/group_main">
+        <item
+            android:id="@+id/contact_list"
+            android:icon="@drawable/ic_contact_list"
+            android:title="@string/contact_list"/>
+    </group>
+</menu>

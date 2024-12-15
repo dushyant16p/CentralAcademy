@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Central Academy</string>
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+
+    <!-- Menu Items -->
+    <string name="home">Home</string>
+    <string name="about">About Us</string>
+    <string name="blog">Blog</string>
+    <string name="school_life">School Life</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="contact_list">Contact List</string>
+
+    <!-- Headeer -->
+    <string name="school_logo">Orchids Centeral</string>
+    <string name="school_slogan">SCHOOL OF EXCELLENCE</string>
+
+    <!-- Home -->
+    <string name="home_heading">Why Choose</string>
+    <string name="statement_paragraph_0">Five decades ago, our Founding Fathers envisioned an institution that would serve as the cornerstone of learning and development in urban communities across India. Today, we remain steadfast in our commitment to their vision. Central Academy continues to uphold the society\'s motto of providing \'Quality and Accessible Education.\' Our approach is forward-thinking, acknowledging the rapidly changing landscape of our country while honoring our rich heritage and values.</string>
+    <string name="statement_paragraph_1">At Central Academy, we believe in: </string>
+    <string name="home_subtitle_1">Building India, One Campus, One Student at a Time!</string>
+    <string name="action_button_text">Know More</string>
+
+    <string name="home_heading_1">Life at Central Academy</string>
+    <string name="statement_paragraph_2">At Central Academy, we believe that education extends beyond the classroom. Our vibrant student life program offers a diverse range of opportunities for students to explore their interests, develop new skills, and build lifelong friendships.</string>
+    <string name="statement_paragraph_3">From participating in sports competitions to engaging in cultural events, student clubs, and community service initiatives, there\'s always something exciting happening at Central Academy.</string>
+    <string name="statement_paragraph_4">Our nurturing environment encourages students to pursue their passions, embrace leadership roles, and make a positive impact both within the school and the wider community.</string>
+    <string name="statement_paragraph_5">Join us and experience a dynamic and supportive student life at Central Academy, where every day is filled with learning, growth, and unforgettable memories.</string>
+
+
+    <!--    About US    -->
+    <string name="about_us">ABOUT US</string>
+    <string name="aboutus_image">Aboutus image</string>
+    <string name="about_us_paragraph1">Ever since its inception, Central Academy has maintained a towering presence, upholding our motto to provide Quality and Accessible Education. Incepted in June 2011, the school was initiated to cater to the growing need of good quality and affordable CBSE curriculum in the city. Conceptualized and managed by the Founder, Correspondent and Secretary Mrs.Rajini Krishnamurthy; who has to her credit, a rich experience of personally managing Vidhya Niketan Matric Higher Secondary School for more than three decades.</string>
+    <string name="about_us_paragraph2">The Society, under the able leadership of the visionary Late Pt Triyugi Narain Mishra, established its first branch in Jaipur, Rajasthan. Subsequently, Central Academy Jodhpur was founded in 1978, guided by the dynamic leadership of Late Shri Dinesh Narain Mishra.</string>
+    <string name="about_us_paragraph3">Central Academy is proud of its student-led curriculum, which is engaging and carefully crafted to refine the personality of each child. These unique propositions are our endeavors to offer exceptional educational experiences.</string>
+    <string name="about_us_paragraph4">Alumni who have graduated from our halls now return as proud parents, seeking to provide the same quality education that they benefitted from as students. Our concerted efforts to reach out to parents ensure that the institution is held in high esteem by the guardians and parents of our students.</string>
+
+    <string name="about_us_heading">Founder’s Inspiration</string>
+    <string name="about_us_paragraph5">In 1977, the late Pt. TN Mishra and the late Shri DN Mishra planted the seeds of empowerment through education. As we reflect on four decades of growth, we deeply honor and appreciate the profound contributions of these two pillars of the CA Family. </string>
+    <string name="about_us_paragraph6">Central Academy has blossomed over the years, much like a sturdy tree with spreading branches. Our institution now touches the lives of many, anchoring future citizens in the profound commitment to nation-building that our Founding Fathers held dear. They envisioned a future where accessible and holistic education would play a pivotal role. </string>
+    <string name="about_us_paragraph7">Our ongoing mission is to enrich the lives of young individuals with values and goodness. We believe that the spirits of our Founding Fathers watch over us from their eternal abode in Heaven, showering their blessings upon our collective efforts.</string>
+    <string name="about_us_paragraph8">Together, we strive to carry forward their legacy and fulfil their vision of a better-educated and empowered society.</string>
+
+
+    <!-- Blog   -->
+    <string name="about_us_paragraph10">Welcome to our Blogs section, where knowledge meets inspiration. At Central Academy, we\'re passionate about sharing valuable insights, ideas, and educational resources with our community.</string>
+    <string name="about_us_paragraph11">Our blogs offer a diverse range of articles, stories, and advice to inspire and inform. Join us on this intellectual journey as we explore the realms of education, creativity, and lifelong learning. We believe that knowledge is a treasure, and we\'re here to help you discover it.</string>
+
+    <string name="inspriation">Inspiration</string>
+    <string name="motvation">Motivation</string>
+    <string name="grow">Grow</string>
+
+
+    <!-- School Life  -->
+    <string name="about_us_paragraph12">Our camps and excursions are meticulously crafted to offer students a fun and enriching experience during their break.</string>
+    <string name="about_us_paragraph13">These camps provide a diverse array of exciting activities and educational opportunities, fostering continued growth, exploration, and thriving throughout the summer.</string>
+    <string name="activities_include">Activities Include</string>
+    <string name="camps">CAMPS</string>
+
+    <string name="about_us_paragraph14">Diverse Learning: Explore a variety of subjects from science to arts, catering to individual interests. </string>
+    <string name="about_us_paragraph15">Experienced Instructors: Learn from passionate experts in a positive and supportive environment.</string>
+    <string name="about_us_paragraph16">Creativity Unleashed: Express yourself through art, music, and drama, building confidence and showcasing talents.</string>
+    <string name="about_us_paragraph17">Physical Fitness: Stay active with sports, games, and outdoor adventures, fostering teamwork and well-being.</string>
+    <string name="about_us_paragraph18">Hands-On Learning: Gain practical knowledge through science experiments, robotics challenges, and nature exploration.</string>
+    <string name="about_us_paragraph19">Friendship and Fun: Create lasting memories, make friends, and have a blast in a friendly and inclusive atmosphere.</string>
+    <string name="about_us_paragraph20">Life Skills: Develop leadership, communication, problem-solving, and time management skills for life\'s journey. </string>
+
+    <!-- Contact Us Form -->
+    <string name="your_name">Enter Your Name</string>
+    <string name="your_email">Enter Your Email</string>
+    <string name="your_mobileNumber">Enter your Phone Number</string>
+    <string name="your_message">Your Message</string>
+    <string name="submit">Submit</string>
+
+    <!-- New strings for contact info -->
+    <string name="contact_information">Contact Information</string>
+    <string name="contact_phone_number">Phone Number :  +91 96490 09001</string>
+    <string name="contact_email_address">Email : contact@centralacademy.ac.in</string>
+    <string name="contact_location_address">Location : C-27, Shastri Nagar, Jodhpur, Rajasthan INDIA - 342001</string>
+
+    <!-- Social Media -->
+    <string name="instagram">Instagram</string>
+    <string name="youtube">YouTube</string>
+    <string name="facebook">Facebook</string>
+    <string name="linkedin">Linkedin</string>
+
+<!--    ne string-->
+    <string name="blog_image_desc">Blog Image</string>
+<!--    <string name="blog_title">Our Blog</string>-->
+    <string name="blog_heading">Welcome to Our Blog</string>
+    <string name="blog_paragraph1">Welcome to our blog where we share insightful articles, tips, and stories to inspire you.</string>
+    <string name="blog_paragraph2">Stay tuned for more amazing content that covers a variety of topics including motivation, growth, and inspiration.</string>
+
+    <string name="inspiration_image_desc">Inspiration Image</string>
+    <string name="inspiration_title">Be Inspired</string>
+
+    <string name="motivation_image_desc">Motivation Image</string>
+    <string name="motivation_title">Keep Going</string>
+
+    <string name="growth_image_desc">Growth Image</string>
+    <string name="growth_title">Grow with Us</string>
+
+    <string name="blog_title">Welcome to Our Blog</string>
+    <string name="blog_intro">Discover the latest updates and insights from our blog. Stay tuned for more exciting posts!</string>
+    <string name="blog_content">Here is where you can add detailed content about the topic </string>
+    <string name="section_title1">Inspiration Behind the Blog</string>
+    <string name="section_content1">This is where we share the stories, ideas, and inspirations that motivated the blog post.</string>
+    <string name="footer">© 2024 Your Blog Name. All rights reserved.</string>
+
+</resources>

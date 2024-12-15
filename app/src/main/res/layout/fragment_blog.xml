@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlogFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Blog header with image -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+            <ImageView
+                android:id="@+id/blog_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/blog"
+                android:src="@drawable/blog"
+                android:scaleType="centerCrop"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="#80000000"/>
+            <TextView
+                android:id="@+id/blog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/blog_title"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+        </FrameLayout>
+
+        <!-- Blog Introduction -->
+        <TextView
+            android:id="@+id/blog_intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Welcome to this exciting blog post where we delve into the latest trends in technology, lifestyle, and much more."
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="4dp"/>
+
+        <!-- Blog Main Content -->
+        <TextView
+            android:id="@+id/blog_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="In this post, we will explore the advancements in AI, innovative gadgets, and how they're shaping our daily lives."
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="4dp"/>
+
+        <!-- Image Section 1 with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <ImageView
+                android:id="@+id/blog_image_section1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/ai"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:id="@+id/blog_section_title1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="The Future of AI"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/blog_section_content1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="Artificial Intelligence is rapidly evolving and transforming industries. In the next few years, we will witness unprecedented changes in automation and AI-driven technologies."
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:lineSpacingExtra="4dp"/>
+        </LinearLayout>
+
+        <!-- Image Section 2 with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <ImageView
+                android:id="@+id/blog_image_section2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/gadget"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:id="@+id/blog_section_title2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="Tech Gadgets You Need"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/blog_section_content2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="Stay ahead with the latest in wearable tech, smart home devices, and much more. This section covers gadgets that promise to enhance your lifestyle."
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:lineSpacingExtra="4dp"/>
+        </LinearLayout>
+
+        <!-- Image Section 3 with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <ImageView
+                android:id="@+id/blog_image_section3"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/innovation"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:id="@+id/blog_section_title3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="Innovative Designs"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/blog_section_content3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="The world of design is constantly evolving. From architecture to user interfaces, discover the most innovative and creative designs that are shaping our environment."
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:lineSpacingExtra="4dp"/>
+        </LinearLayout>
+
+        <!-- Social Media Links -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="16dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_facebook"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_instagram"/>
+<!--            <ImageView-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:src="@drawable/ic_twitter"/>-->
+        </LinearLayout>
+
+        <!-- Footer Section -->
+        <TextView
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="© 2024 MyBlog. All rights reserved."
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightPrimary"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Horizontal Card Section -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!-- First Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardView1"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="8dp"
+                    app:cardBackgroundColor="@android:color/white">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/aboutus_image"
+                            android:src="@drawable/home_image_1"
+                            android:scaleType="centerCrop" />
+
+                        <ImageView
+                            android:id="@+id/nav_header_image"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/school_logo"
+                            android:src="@drawable/icon"
+                            android:scaleType="centerCrop"
+                            android:elevation="8dp" />
+                    </FrameLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Second Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardView2"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="8dp"
+                    app:cardBackgroundColor="@android:color/white">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/aboutus_image"
+                        android:src="@drawable/home_image_2"
+                        android:scaleType="centerCrop" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Third Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardView3"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="8dp"
+                    app:cardBackgroundColor="@android:color/white">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/aboutus_image"
+                        android:src="@drawable/home_image_5"
+                        android:scaleType="centerCrop" />
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- Section with Title and Description -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_background"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/home_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="@string/home_heading"
+                android:textColor="@color/colorSecondary"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/home_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/primary_blue_dark"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif" />
+
+            <TextView
+                android:id="@+id/statement_paragraph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/statement_paragraph_0"
+                android:justificationMode="inter_word"
+                android:paddingTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light" />
+        </LinearLayout>
+
+        <!-- Full-Width Image Section -->
+        <ImageView
+            android:id="@+id/home_image_4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/aboutus_image"
+            android:src="@drawable/home_image_4"
+            android:scaleType="centerCrop" />
+
+        <!-- Call-to-Action Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_background"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/home_heading_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="@string/home_heading_1"
+                android:textColor="@color/colorSecondary"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/statement_paragraph_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/statement_paragraph_2"
+                android:paddingBottom="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light" />
+
+            <Button
+                android:id="@+id/myButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_button"
+                android:text="@string/action_button_text"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_background">
+
+            <!-- Facilities Heading -->
+            <TextView
+                android:id="@+id/facilities_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our State-of-the-Art Facilities"
+                android:textColor="@color/colorSecondary"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <!-- Facility 1: Modern Classrooms -->
+            <TextView
+                android:id="@+id/facility_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Spacious and well-equipped classrooms with smart boards and air-conditioning."
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="8dp"/>
+
+            <!-- Facility 2: Sports Facilities -->
+            <TextView
+                android:id="@+id/facility_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Dedicated sports arenas for football, basketball, and athletics."
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="8dp"/>
+
+            <!-- Facility 3: Computer Lab -->
+            <TextView
+                android:id="@+id/facility_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Fully equipped computer labs with modern PCs and high-speed internet."
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="8dp"/>
+
+            <!-- Facility 4: Library -->
+            <TextView
+                android:id="@+id/facility_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Well-stocked library with a wide range of books, journals, and research material."
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="8dp"/>
+
+            <!-- Facility 5: Medical Center -->
+            <TextView
+                android:id="@+id/facility_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• On-campus medical center to ensure the well-being of our students."
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="8dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
